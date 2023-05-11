@@ -16,20 +16,20 @@ html {
   background-color: #eeeeee; 
 }
 
-body {
-	font-family: Georgia, serif;
-	color: #000;
-	background-color: #ffffff;
-	text-align: left; /* for IE */
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 10px;
-	padding-bottom: 30px;
-	max-width: 960px;
+body { 
+  font-family: Georgia, serif;
+  color: #000;
+  background-color: #ffffff; 
+  text-align:left; /* for IE */
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:  50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  max-width: 960px;
 }
 
 #layout-menu {
@@ -80,9 +80,7 @@ a, a > tt {
 }
 
 a:hover {
-	/*border-bottom: 1px gray dotted;
-	font-weight: bold;*/
-	color:#FF0000; 
+	border-bottom: 1px gray dotted;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -137,12 +135,8 @@ strong {
 }
 
 
-red {
-	color: #FF0000;
-}
-
 h1, h2, h3 {
-	color: #777777;
+	color: #527bbd;
 	margin-top: 0.7em;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.2em;
@@ -152,7 +146,6 @@ h1, h2, h3 {
 }
 
 h1 {
-	color: #527bbd;
 	font-size: 165%;
 	padding-bottom: 0.3em;
 }
@@ -224,9 +217,8 @@ dd > *:first-child {
 }
 
 ul {
-	list-style-position: inherit;
-	list-style-type: none;
-	padding-left: 20px;
+	list-style-position: outside;
+	list-style-type: square;
 }
 
 p + ul, p + ol {
@@ -234,7 +226,7 @@ p + ul, p + ol {
 }
 
 li {
-	margin-top: 1em;
+	margin-top:0.9em;
 }
 
 ol {
